@@ -1,0 +1,73 @@
+﻿import { NextResponse } from 'next/server'
+import { createClient } from '../../../lib/supabase/server'
+
+export async function GET(request: Request) {
+  const { searchParams, origin } = new URL(request.url)
+  const code = searchParams.get('code')
+  let next = searchParams.get('next') ?? '/dashboard'
+
+  if (!next.startsWith('/')) {
+    next = '/dashboard'
+  }
+
+  if (code) {
+    const supabase = await createClient()
+
+    const { error } = await supabase.auth.exchangeCodeForSession(code)
+
+    if (!error) {
+      const {
+        data: { user },
+      } = await supabase.auth.getUser()
+
+      if (user) {
+        const { data: existingProfile } = await supabase
+          .from('profiles')
+          .select('id, role, phone, birthday_month, birthday_day, show_birthday')
+          .eq('id', user.id)
+          .maybeSingle()
+
+        const birthdayMonth =
+          user.user_metadata?.birthday_month !== undefined &&
+          user.user_metadata?.birthday_month !== null
+            ? Number(user.user_metadata.birthday_month)
+            : existingProfile?.birthday_month ?? null
+
+        const birthdayDay =
+          user.user_metadata?.birthday_day !== undefined &&
+          user.user_metadata?.birthday_day !== null
+            ? Number(user.user_metadata.birthday_day)
+            : existingProfile?.birthday_day ?? null
+
+        const showBirthday =
+          user.user_metadata?.show_birthday !== undefined &&
+          user.user_metadata?.show_birthday !== null
+            ? Boolean(user.user_metadata.show_birthday)
+            : existingProfile?.show_birthday ?? true
+
+        await supabase.from('profiles').upsert({
+          id: user.id,
+          email: user.email,
+          full_name:
+            user.user_metadata?.full_name ||
+            user.user_metadata?.name ||
+            user.user_metadata?.display_name ||
+            'New Member',
+          phone:
+            existingProfile?.phone ||
+            user.user_metadata?.phone_number ||
+            user.user_metadata?.phone ||
+            null,
+          birthday_month: birthdayMonth,
+          birthday_day: birthdayDay,
+          show_birthday: showBirthday,
+          role: existingProfile?.role || 'member',
+        })
+      }
+
+      return NextResponse.redirect(new URL(next, origin))
+    }
+  }
+
+  return NextResponse.redirect(new URL('/login', origin))
+}
