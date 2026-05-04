@@ -5,9 +5,9 @@ export default function PublicFooter() {
     <footer className='border-t border-yellow-900/40 bg-black px-4 py-8 text-white md:px-8'>
       <div className='mx-auto grid max-w-6xl grid-cols-1 gap-6 md:grid-cols-3'>
         <div>
-          <h2 className='text-xl font-bold text-yellow-400'>The Kingdom Citizens</h2>
+          <h2 className='text-xl font-bold text-yellow-400'>Divine Power Deliverance Ministry</h2>
           <p className='mt-2 text-sm text-gray-400'>
-            Our address is in Christ.
+            A family of prayer, deliverance, worship, and the Word.
           </p>
         </div>
 
@@ -34,7 +34,7 @@ export default function PublicFooter() {
       </div>
 
       <div className='mx-auto mt-8 max-w-6xl border-t border-yellow-900/30 pt-4 text-sm text-gray-500'>
-        © {new Date().getFullYear()} The Kingdom Citizens. All rights reserved.
+        © {new Date().getFullYear()} Divine Power Deliverance Ministry. All rights reserved.
       </div>
     </footer>
   )

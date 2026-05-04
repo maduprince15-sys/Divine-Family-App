@@ -12,17 +12,17 @@ export default function PublicHeader() {
         <div className='mx-auto flex max-w-6xl items-center justify-between'>
           <Link href='/' className='flex items-center gap-4'>
             <img
-              src='/kingdom-citizens-logo.png'
-              alt='The Kingdom Citizens'
+              src='/dpdm-logo.png'
+              alt='Divine Power Deliverance Ministry'
               className='h-16 w-16 rounded-full object-cover md:h-20 md:w-20'
             />
 
             <div>
               <h1 className='text-xl font-bold leading-tight text-yellow-400 md:text-2xl'>
-                The Kingdom Citizens
+                Divine Power Deliverance Ministry
               </h1>
               <p className='text-xs text-gray-300 md:text-sm'>
-                Our address is in Christ
+                A family of prayer, deliverance, worship, and the Word
               </p>
             </div>
           </Link>

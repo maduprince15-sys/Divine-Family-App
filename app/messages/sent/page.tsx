@@ -27,7 +27,7 @@ export default async function SentMessagesPage() {
       <section className='border-b border-yellow-900/40 bg-gradient-to-br from-black via-[#130606] to-[#260909] px-4 py-8 md:px-8'>
         <div className='mx-auto max-w-5xl'>
           <p className='text-xs uppercase tracking-[0.35em] text-yellow-500'>
-            The Kingdom Citizens
+            Divine Power Deliverance Ministry
           </p>
 
           <div className='mt-3 flex flex-col gap-4 md:flex-row md:items-end md:justify-between'>

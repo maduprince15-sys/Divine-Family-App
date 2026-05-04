@@ -97,7 +97,7 @@ export default async function BirthdaysPage() {
       <section className='border-b border-yellow-900/40 bg-gradient-to-br from-black via-[#130606] to-[#260909] px-4 py-8 md:px-8'>
         <div className='mx-auto max-w-6xl'>
           <p className='text-xs uppercase tracking-[0.35em] text-yellow-500'>
-            The Kingdom Citizens
+            Divine Power Deliverance Ministry
           </p>
 
           <div className='mt-3 flex flex-col gap-4 md:flex-row md:items-end md:justify-between'>
@@ -107,7 +107,7 @@ export default async function BirthdaysPage() {
               </h1>
 
               <p className='mt-3 max-w-2xl text-sm leading-6 text-gray-300'>
-                Celebrate Citizens by birthday month and day. Birth years are not collected or displayed.
+                Celebrate Divine Family by birthday month and day. Birth years are not collected or displayed.
               </p>
             </div>
 

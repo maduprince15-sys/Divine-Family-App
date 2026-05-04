@@ -29,7 +29,7 @@ export default async function PublicPostsPage() {
       <section className='border-b border-yellow-900/40 bg-gradient-to-br from-black via-[#130606] to-[#260909] px-4 py-8 md:px-8'>
         <div className='mx-auto max-w-5xl'>
           <p className='text-xs uppercase tracking-[0.35em] text-yellow-500'>
-            The Kingdom Citizens
+            Divine Power Deliverance Ministry
           </p>
 
           <h1 className='mt-3 text-3xl font-bold md:text-5xl'>
@@ -37,7 +37,7 @@ export default async function PublicPostsPage() {
           </h1>
 
           <p className='mt-3 max-w-2xl text-sm leading-6 text-gray-300'>
-            Public teachings, community posts, meditations, and Kingdom Citizens updates.
+            Public teachings, community posts, meditations, and Divine Family updates.
           </p>
 
           <div className='mt-5 flex flex-wrap gap-3'>
@@ -90,7 +90,7 @@ export default async function PublicPostsPage() {
               {item.video_url && <VideoEmbed url={item.video_url} />}
 
               <p className='mt-5 text-sm text-gray-500'>
-                By {item.author_name || 'The Kingdom Citizens'} ·{' '}
+                By {item.author_name || 'Divine Power Deliverance Ministry'} ·{' '}
                 {new Date(item.created_at).toLocaleString()}
               </p>
 

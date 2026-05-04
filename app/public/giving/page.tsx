@@ -20,7 +20,7 @@ export default async function PublicGivingPage() {
       <section className='border-b border-yellow-900/40 bg-gradient-to-br from-black via-[#130606] to-[#260909] px-4 py-10 md:px-8'>
         <div className='mx-auto max-w-6xl'>
           <p className='text-xs uppercase tracking-[0.35em] text-yellow-500'>
-            The Kingdom Citizens
+            Divine Power Deliverance Ministry
           </p>
 
           <h1 className='mt-3 text-4xl font-bold md:text-6xl'>

@@ -225,7 +225,7 @@ export default function ProfileForm({
           <h2 className='mt-2 text-2xl font-bold'>Your Information</h2>
 
           <p className='mt-2 text-sm text-gray-400'>
-            Keep your name, profile photo, optional phone number, and birthday celebration details current for The Kingdom Citizens member records.
+            Keep your name, profile photo, optional phone number, and birthday celebration details current for Divine Power Deliverance Ministry member records.
           </p>
         </div>
 
@@ -369,7 +369,7 @@ export default function ProfileForm({
               className='mt-1'
             />
             <span>
-              Allow The Kingdom Citizens to show my birthday month/day for birthday celebration.
+              Allow Divine Power Deliverance Ministry to show my birthday month/day for birthday celebration.
             </span>
           </label>
 

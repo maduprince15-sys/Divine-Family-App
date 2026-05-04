@@ -14,7 +14,7 @@ export default async function PublicConnectPage() {
         <div className='mx-auto flex max-w-6xl flex-col gap-5 md:flex-row md:items-center md:justify-between'>
           <div>
             <p className='text-xs uppercase tracking-[0.35em] text-yellow-500'>
-              The Kingdom Citizens
+              Divine Power Deliverance Ministry
             </p>
 
             <h1 className='mt-2 text-3xl font-bold md:text-5xl'>
@@ -22,7 +22,7 @@ export default async function PublicConnectPage() {
             </h1>
 
             <p className='mt-3 max-w-2xl text-sm leading-6 text-gray-300 md:text-base'>
-              Follow The Kingdom Citizens through our official channels, teaching platforms,
+              Follow Divine Power Deliverance Ministry through our official channels, teaching platforms,
               music channels, and public ministry links.
             </p>
           </div>
@@ -60,7 +60,7 @@ export default async function PublicConnectPage() {
           <h2 className='mt-2 text-2xl font-bold'>Stay Connected</h2>
 
           <p className='mt-3 max-w-3xl text-sm leading-6 text-gray-300'>
-            These are the public links connected to The Kingdom Citizens. Use them to
+            These are the public links connected to Divine Power Deliverance Ministry. Use them to
             follow teachings, music, public updates, and ministry communication.
           </p>
         </div>
@@ -71,12 +71,12 @@ export default async function PublicConnectPage() {
               item.platform_name ??
               item.title ??
               item.name ??
-              'Kingdom Citizens Link'
+              'Divine Family Link'
 
             const description =
               item.description ??
               item.notes ??
-              'Official public link for The Kingdom Citizens.'
+              'Official public link for Divine Power Deliverance Ministry.'
 
             const url =
               item.url ??

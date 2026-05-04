@@ -48,7 +48,7 @@ export default async function AdminGroupsPage() {
         <div className='mb-8 flex flex-wrap items-center justify-between gap-3'>
           <div>
             <p className='text-xs uppercase tracking-[0.35em] text-yellow-500'>
-              The Kingdom Citizens
+              Divine Power Deliverance Ministry
             </p>
 
             <h1 className='mt-2 text-3xl font-bold md:text-5xl'>
@@ -57,7 +57,7 @@ export default async function AdminGroupsPage() {
 
             <p className='mt-3 max-w-2xl text-sm leading-6 text-gray-400'>
               Create training groups, Bible study groups, prayer teams, new members classes,
-              and other Kingdom Citizens groups.
+              and other Divine Family groups.
             </p>
           </div>
 

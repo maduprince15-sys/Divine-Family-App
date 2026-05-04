@@ -61,7 +61,7 @@ export default async function StudyDiscussionPage() {
 
               <p className='mt-3 max-w-2xl text-xs leading-5 text-gray-500'>
                 Public visitors can read Study Center resources, but discussion is available
-                only to signed-in Citizens.
+                only to signed-in Divine Family.
               </p>
             </div>
 

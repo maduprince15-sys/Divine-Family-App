@@ -1,4 +1,4 @@
-const CACHE_NAME = 'kingdom-citizens-v1'
+const CACHE_NAME = 'divine-family-v1'
 
 self.addEventListener('install', (event) => {
   self.skipWaiting()

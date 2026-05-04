@@ -52,7 +52,7 @@ export default async function NewMessagePage({ searchParams }: Props) {
       <section className='border-b border-yellow-900/40 bg-gradient-to-br from-black via-[#130606] to-[#260909] px-4 py-8 md:px-8'>
         <div className='mx-auto max-w-4xl'>
           <p className='text-xs uppercase tracking-[0.35em] text-yellow-500'>
-            The Kingdom Citizens
+            Divine Power Deliverance Ministry
           </p>
 
           <h1 className='mt-3 text-3xl font-bold md:text-5xl'>
@@ -62,7 +62,7 @@ export default async function NewMessagePage({ searchParams }: Props) {
           <p className='mt-3 max-w-2xl text-sm leading-6 text-gray-300'>
             {canBroadcast
               ? 'Send a direct message to one member or broadcast to all members.'
-              : 'Send a message to The Kingdom Citizens board members.'}
+              : 'Send a message to Divine Power Deliverance Ministry board members.'}
           </p>
         </div>
       </section>

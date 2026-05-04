@@ -1,4 +1,4 @@
-﻿import { createClient } from '../../lib/supabase/server'
+import { createClient } from '../../lib/supabase/server'
 
 export default async function MeetingsPage() {
   const supabase = await createClient()
@@ -16,7 +16,7 @@ export default async function MeetingsPage() {
       <main className='min-h-screen bg-[#050303] px-4 py-8 text-white md:px-8'>
         <section className='mx-auto max-w-5xl'>
           <p className='text-xs uppercase tracking-[0.35em] text-yellow-500'>
-            The Kingdom Citizens
+            Divine Power Deliverance Ministry
           </p>
 
           <h1 className='mt-3 text-4xl font-black md:text-6xl'>
@@ -36,7 +36,7 @@ export default async function MeetingsPage() {
       <section className='border-b border-yellow-900/40 bg-gradient-to-br from-black via-[#130606] to-[#260909] px-4 py-10 md:px-8 md:py-16'>
         <div className='mx-auto max-w-6xl'>
           <p className='text-xs uppercase tracking-[0.35em] text-yellow-500'>
-            The Kingdom Citizens
+            Divine Power Deliverance Ministry
           </p>
 
           <h1 className='mt-3 text-4xl font-black leading-tight md:text-6xl'>
@@ -45,7 +45,7 @@ export default async function MeetingsPage() {
           </h1>
 
           <p className='mt-5 max-w-3xl text-base leading-8 text-gray-300 md:text-lg'>
-            Join upcoming Kingdom Citizens meetings, Bible studies, fellowships,
+            Join upcoming Divine Family meetings, Bible studies, fellowships,
             and live ministry sessions.
           </p>
         </div>
@@ -63,7 +63,7 @@ export default async function MeetingsPage() {
 
           <p className='mt-3 max-w-3xl text-sm leading-7 text-gray-400'>
             Access official meeting links, schedules, hosts, and programme details
-            for Kingdom Citizens gatherings.
+            for Divine Family gatherings.
           </p>
         </div>
 
@@ -100,7 +100,7 @@ export default async function MeetingsPage() {
 
                   <p>
                     <span className='font-bold text-white'>Host:</span>{' '}
-                    {meeting.host_name || 'Kingdom Citizens'}
+                    {meeting.host_name || 'Divine Family'}
                   </p>
                 </div>
 

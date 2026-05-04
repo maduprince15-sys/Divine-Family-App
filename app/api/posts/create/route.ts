@@ -1,4 +1,4 @@
-﻿import { NextResponse } from 'next/server'
+import { NextResponse } from 'next/server'
 import { createClient } from '../../../../lib/supabase/server'
 import { createAdminClient } from '../../../../lib/supabase/admin'
 import { canCreatePosts } from '../../../../lib/permissions'
@@ -62,7 +62,7 @@ export async function POST(request: Request) {
     expires_at: validExpiresAt,
     is_archived: false,
     author_id: user.id,
-    author_name: profile.full_name || user.email || 'Kingdom Citizens',
+    author_name: profile.full_name || user.email || 'Divine Family',
   })
 
   if (error) {

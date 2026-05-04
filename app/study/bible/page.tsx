@@ -19,7 +19,7 @@ export default function BiblePage() {
           </h1>
 
           <p className='mt-4 max-w-3xl text-sm leading-7 text-gray-300 md:text-base'>
-            Search and read Scripture inside the Kingdom Citizens Study Center.
+            Search and read Scripture inside the Divine Family Study Center.
           </p>
 
           <div className='mt-6 flex flex-wrap gap-3'>

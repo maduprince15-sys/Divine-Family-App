@@ -96,7 +96,7 @@ export default async function NoticeBoardPage() {
       type: 'birthday',
       label: "Today's Birthday",
       title: profile.full_name || profile.email || 'Citizen',
-      subtitle: 'The Kingdom Citizens celebrates you.',
+      subtitle: 'Divine Power Deliverance Ministry celebrates you.',
       description: 'May you grow in Christ, in grace, in wisdom, and in the purpose of God.',
       avatar_url: profile.avatar_url || null,
       image_url: null,

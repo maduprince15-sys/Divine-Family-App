@@ -30,7 +30,7 @@ export default async function NotificationsPage() {
       <section className='border-b border-yellow-900/40 bg-gradient-to-br from-black via-[#130606] to-[#260909] px-4 py-8 md:px-8'>
         <div className='mx-auto max-w-6xl'>
           <p className='text-xs uppercase tracking-[0.35em] text-yellow-500'>
-            The Kingdom Citizens
+            Divine Power Deliverance Ministry
           </p>
 
           <div className='mt-3 flex flex-col gap-4 md:flex-row md:items-end md:justify-between'>
@@ -40,7 +40,7 @@ export default async function NotificationsPage() {
               </h1>
 
               <p className='mt-3 max-w-2xl text-sm leading-6 text-gray-300 md:text-base'>
-                View app notifications, messages, reminders, approvals, and important Citizens updates.
+                View app notifications, messages, reminders, approvals, and important Divine Family updates.
               </p>
 
               <div className='mt-4 inline-flex rounded-full border border-yellow-900/40 bg-black/30 px-4 py-2 text-sm text-yellow-300'>

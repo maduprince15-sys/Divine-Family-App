@@ -20,7 +20,7 @@ export default async function PublicBooksPage() {
       <section className='border-b border-yellow-900/40 bg-gradient-to-br from-black via-[#130606] to-[#250a0a] px-4 py-10 md:px-8'>
         <div className='mx-auto max-w-6xl'>
           <p className='text-xs uppercase tracking-[0.35em] text-yellow-500'>
-            The Kingdom Citizens
+            Divine Power Deliverance Ministry
           </p>
 
           <h1 className='mt-3 text-4xl font-bold md:text-6xl'>
@@ -28,7 +28,7 @@ export default async function PublicBooksPage() {
           </h1>
 
           <p className='mt-4 max-w-3xl text-sm leading-7 text-gray-300 md:text-base'>
-            Explore books and teachings from The Kingdom Citizens. These works are written
+            Explore books and teachings from Divine Power Deliverance Ministry. These works are written
             to strengthen identity in Christ, form spiritual understanding, and establish
             believers in Kingdom order.
           </p>
@@ -129,7 +129,7 @@ export default async function PublicBooksPage() {
             Books as Teaching Vessels
           </h2>
           <p className='mt-3 max-w-3xl text-sm leading-7 text-gray-300'>
-            The Kingdom Citizens books are not merely publications. They are teaching
+            Divine Power Deliverance Ministry books are not merely publications. They are teaching
             vessels for formation, alignment, doctrine, spiritual understanding, and
             Kingdom expression in Christ.
           </p>

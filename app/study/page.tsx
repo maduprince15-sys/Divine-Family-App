@@ -20,7 +20,7 @@ export default async function StudyCenterPage() {
       <section className='border-b border-yellow-900/40 bg-gradient-to-br from-black via-[#130606] to-[#260909] px-4 py-10 md:px-8 md:py-16'>
         <div className='mx-auto max-w-6xl'>
           <p className='text-xs uppercase tracking-[0.35em] text-yellow-500'>
-            The Kingdom Citizens
+            Divine Power Deliverance Ministry
           </p>
 
           <div className='mt-3 flex flex-col gap-4 md:flex-row md:items-end md:justify-between'>
@@ -30,7 +30,7 @@ export default async function StudyCenterPage() {
               </h1>
 
               <p className='mt-4 max-w-3xl text-sm leading-7 text-gray-300 md:text-base'>
-                Study Kingdom Citizens doctrine, Bible lessons, teaching resources,
+                Study Divine Family doctrine, Bible lessons, teaching resources,
                 Scripture-based notes, and formation materials.
               </p>
 

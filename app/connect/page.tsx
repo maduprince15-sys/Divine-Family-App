@@ -1,4 +1,4 @@
-﻿import { createClient } from '../../lib/supabase/server'
+import { createClient } from '../../lib/supabase/server'
 
 export default async function ConnectPage() {
   const supabase = await createClient()
@@ -14,7 +14,7 @@ export default async function ConnectPage() {
       <main className='min-h-screen bg-[#050303] px-4 py-8 text-white md:px-8'>
         <section className='mx-auto max-w-5xl'>
           <p className='text-xs uppercase tracking-[0.35em] text-yellow-500'>
-            The Kingdom Citizens
+            Divine Power Deliverance Ministry
           </p>
 
           <h1 className='mt-3 text-4xl font-black md:text-6xl'>
@@ -34,12 +34,12 @@ export default async function ConnectPage() {
       <section className='border-b border-yellow-900/40 bg-gradient-to-br from-black via-[#130606] to-[#260909] px-4 py-10 md:px-8 md:py-16'>
         <div className='mx-auto max-w-6xl'>
           <p className='text-xs uppercase tracking-[0.35em] text-yellow-500'>
-            The Kingdom Citizens
+            Divine Power Deliverance Ministry
           </p>
 
           <h1 className='mt-3 text-4xl font-black leading-tight md:text-6xl'>
             Connect With <br className='hidden sm:block' />
-            Kingdom Citizens
+            Divine Family
           </h1>
 
           <p className='mt-5 max-w-3xl text-base leading-8 text-gray-300 md:text-lg'>
@@ -59,7 +59,7 @@ export default async function ConnectPage() {
           </h2>
 
           <p className='mt-3 max-w-3xl text-sm leading-7 text-gray-400'>
-            Use these links to access Kingdom Citizens teachings, music, fellowship platforms,
+            Use these links to access Divine Family teachings, music, fellowship platforms,
             and public communication channels.
           </p>
         </div>

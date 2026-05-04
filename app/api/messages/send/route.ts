@@ -45,7 +45,7 @@ export async function POST(request: Request) {
     senderProfile.full_name ||
     senderProfile.email ||
     user.email ||
-    'The Kingdom Citizens'
+    'Divine Power Deliverance Ministry'
 
   const senderIsOwnerOrAdmin = ['owner', 'admin'].includes(senderRole)
 

@@ -1,4 +1,4 @@
-﻿import Link from 'next/link'
+import Link from 'next/link'
 import { redirect } from 'next/navigation'
 import { createClient } from '../../lib/supabase/server'
 import { canCreatePosts, canModeratePosts } from '../../lib/permissions'
@@ -94,7 +94,7 @@ export default async function PostsPage() {
       <section className='border-b border-yellow-900/40 bg-gradient-to-br from-black via-[#130606] to-[#260909] px-4 py-8 md:px-8'>
         <div className='mx-auto max-w-5xl'>
           <p className='text-xs uppercase tracking-[0.35em] text-yellow-500'>
-            The Kingdom Citizens
+            Divine Power Deliverance Ministry
           </p>
 
           <div className='mt-3 flex flex-col gap-4 md:flex-row md:items-end md:justify-between'>
@@ -104,7 +104,7 @@ export default async function PostsPage() {
               </h1>
 
               <p className='mt-3 max-w-2xl text-sm leading-6 text-gray-300'>
-                Community posts, teaching posts, reflections, and Citizens engagement.
+                Community posts, teaching posts, reflections, and Divine Family engagement.
               </p>
 
               {canManagePosts && (
@@ -206,7 +206,7 @@ export default async function PostsPage() {
 
                 <div className='mt-4 space-y-1 text-xs text-gray-500'>
                   <p>
-                    By {item.author_name || 'Kingdom Citizens'} ·{' '}
+                    By {item.author_name || 'Divine Family'} ·{' '}
                     {new Date(item.created_at).toLocaleString()}
                   </p>
 

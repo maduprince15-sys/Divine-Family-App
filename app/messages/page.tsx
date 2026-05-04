@@ -36,7 +36,7 @@ export default async function MessagesPage() {
       <section className='border-b border-yellow-900/40 bg-gradient-to-br from-black via-[#130606] to-[#260909] px-4 py-8 md:px-8'>
         <div className='mx-auto max-w-5xl'>
           <p className='text-xs uppercase tracking-[0.35em] text-yellow-500'>
-            The Kingdom Citizens
+            Divine Power Deliverance Ministry
           </p>
 
           <div className='mt-3 flex flex-col gap-4 md:flex-row md:items-end md:justify-between'>
@@ -47,7 +47,7 @@ export default async function MessagesPage() {
 
               <p className='mt-3 max-w-2xl text-sm leading-6 text-gray-300'>
                 Your communication center for private messages, sent messages,
-                and the Citizens group chat.
+                and the Divine Family group chat.
               </p>
             </div>
 
@@ -133,7 +133,7 @@ export default async function MessagesPage() {
                   <h2 className='mt-4 text-xl font-bold'>{message.subject}</h2>
 
                   <p className='mt-2 text-sm text-gray-400'>
-                    From: {message.sender_name || 'The Kingdom Citizens'}
+                    From: {message.sender_name || 'Divine Power Deliverance Ministry'}
                   </p>
 
                   <p className='mt-2 line-clamp-2 text-sm leading-6 text-gray-300'>

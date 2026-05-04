@@ -116,7 +116,7 @@ export default function GivingForm({ options }: Props) {
 
         <input
           className='w-full rounded bg-white p-3 text-black'
-          placeholder='Title e.g. Support The Kingdom Citizens'
+          placeholder='Title e.g. Support Divine Power Deliverance Ministry'
           value={title}
           onChange={(e) => setTitle(e.target.value)}
           required
