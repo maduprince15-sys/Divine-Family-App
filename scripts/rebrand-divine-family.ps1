@@ -26,7 +26,7 @@ $replacements = [ordered]@{
 }
 
 foreach ($file in $files) {
-  $content = Get-Content $file.FullName -Raw
+  $content = [System.IO.File]::ReadAllText($file.FullName)
   $updated = $content
 
   foreach ($key in $replacements.Keys) {
@@ -34,20 +34,22 @@ foreach ($file in $files) {
   }
 
   if ($updated -ne $content) {
-    Set-Content -Path $file.FullName -Value $updated -NoNewline
+    [System.IO.File]::WriteAllText($file.FullName, $updated)
     Write-Host "Updated $($file.FullName)"
   }
 }
 
 # Ensure the package name is correct even if JSON formatting changes later.
 if (Test-Path 'package.json') {
-  $pkg = Get-Content 'package.json' -Raw | ConvertFrom-Json
+  $pkgPath = (Resolve-Path 'package.json').Path
+  $pkg = [System.IO.File]::ReadAllText($pkgPath) | ConvertFrom-Json
   $pkg.name = 'divine-family-app'
   $pkg | ConvertTo-Json -Depth 20 | Set-Content 'package.json'
 }
 
 if (Test-Path 'package-lock.json') {
-  $lock = Get-Content 'package-lock.json' -Raw | ConvertFrom-Json
+  $lockPath = (Resolve-Path 'package-lock.json').Path
+  $lock = [System.IO.File]::ReadAllText($lockPath) | ConvertFrom-Json
   if ($lock.name) { $lock.name = 'divine-family-app' }
   if ($lock.packages -and $lock.packages.'' -and $lock.packages.''.name) {
     $lock.packages.''.name = 'divine-family-app'
