@@ -36,7 +36,7 @@ export default function ChatRoom({
   currentUserRole,
   canModerate,
   chatRoom = 'general',
-  title = 'Citizens Discussion',
+  title = 'Divine Family Discussion',
   subtitle = 'Members-only chat',
   label = 'General Group Chat',
   badgeText = 'KC',

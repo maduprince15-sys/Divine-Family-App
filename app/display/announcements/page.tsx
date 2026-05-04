@@ -17,13 +17,13 @@ export default async function AnnouncementDisplayPage() {
         <div className='w-full max-w-6xl'>
           <div className='mb-8 flex flex-col items-center text-center'>
             <img
-              src='/kingdom-citizens-logo.png'
-              alt='The Kingdom Citizens'
+              src='/dpdm-logo.png'
+              alt='Divine Power Deliverance Ministry'
               className='h-28 w-28 rounded-full object-cover md:h-36 md:w-36'
             />
 
             <p className='mt-5 text-xs uppercase tracking-[0.45em] text-yellow-500'>
-              The Kingdom Citizens
+              Divine Power Deliverance Ministry
             </p>
 
             <h1 className='mt-3 text-4xl font-black md:text-7xl'>

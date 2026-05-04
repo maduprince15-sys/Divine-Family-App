@@ -1,4 +1,4 @@
-﻿import Link from 'next/link'
+import Link from 'next/link'
 import { redirect } from 'next/navigation'
 import { createClient } from '../../lib/supabase/server'
 import LogoutButton from './LogoutButton'
@@ -99,7 +99,7 @@ export default async function DashboardPage() {
       type: 'birthday',
       label: "Today's Birthday",
       title: profile.full_name || profile.email || 'Citizen',
-      subtitle: 'The Kingdom Citizens celebrates you.',
+      subtitle: 'Divine Power Deliverance Ministry celebrates you.',
       description:
         'May you grow in Christ, in grace, in wisdom, and in the purpose of God.',
       avatar_url: profile.avatar_url || null,
@@ -151,13 +151,13 @@ export default async function DashboardPage() {
     },
     {
       title: `Notifications${unreadNotificationCount ? ` (${unreadNotificationCount} unread)` : ''}`,
-      description: 'View app notifications, reminders, approvals, and important Citizens updates.',
+      description: 'View app notifications, reminders, approvals, and important Divine Family updates.',
       href: '/notifications',
       label: 'Alerts',
     },
     {
       title: `Messages${unreadMessageCount ? ` (${unreadMessageCount} unread)` : ''}`,
-      description: 'Read private messages, sent messages, and access the Citizens group chat.',
+      description: 'Read private messages, sent messages, and access the Divine Family group chat.',
       href: '/messages',
       label: 'Communication',
     },
@@ -181,7 +181,7 @@ export default async function DashboardPage() {
     },
     {
       title: 'Books',
-      description: 'Access The Kingdom Citizens book and teaching resource area.',
+      description: 'Access Divine Power Deliverance Ministry book and teaching resource area.',
       href: '/books',
       label: 'Bookstore',
     },
@@ -443,7 +443,7 @@ export default async function DashboardPage() {
       <section className='border-b border-yellow-900/40 bg-gradient-to-br from-black via-[#130606] to-[#260909] px-4 py-8 md:px-8'>
         <div className='mx-auto max-w-6xl'>
           <p className='text-xs uppercase tracking-[0.35em] text-yellow-500'>
-            The Kingdom Citizens
+            Divine Power Deliverance Ministry
           </p>
 
           <div className='mt-3 flex flex-col gap-4 md:flex-row md:items-end md:justify-between'>
@@ -453,7 +453,7 @@ export default async function DashboardPage() {
               </h1>
 
               <p className='mt-3 max-w-2xl text-sm leading-6 text-gray-300 md:text-base'>
-                Welcome, {displayName}. This is your Kingdom Citizens control center.
+                Welcome, {displayName}. This is your Divine Family control center.
               </p>
 
               <div className='mt-4 flex flex-wrap gap-3 text-sm'>
@@ -511,7 +511,7 @@ export default async function DashboardPage() {
                 </h2>
 
                 <p className='mt-2 text-sm font-semibold'>
-                  Open your notification center to view recent messages, reminders, and Citizens updates.
+                  Open your notification center to view recent messages, reminders, and Divine Family updates.
                 </p>
               </div>
 
@@ -528,7 +528,7 @@ export default async function DashboardPage() {
           </h2>
 
           <p className='mt-2 text-sm leading-6 text-gray-300'>
-            General tools available for your Kingdom Citizens account.
+            General tools available for your Divine Family account.
           </p>
         </div>
 

@@ -54,7 +54,7 @@ export default function ContactForm() {
         </p>
         <h2 className='mt-2 text-2xl font-bold'>Send a Message</h2>
         <p className='mt-2 text-sm leading-6 text-gray-400'>
-          Send a message to The Kingdom Citizens. You do not need an account to use this form.
+          Send a message to Divine Power Deliverance Ministry. You do not need an account to use this form.
         </p>
       </div>
 

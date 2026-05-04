@@ -34,7 +34,7 @@ export async function GET(request: Request) {
   }
 
   const eventDate = dateToICS(event.event_date)
-  const uid = `${event.id}@kingdom-citizens-app`
+  const uid = `${event.id}@divine-family-app`
   const now = new Date().toISOString().replace(/[-:]/g, '').split('.')[0] + 'Z'
 
   const descriptionParts = [
@@ -45,7 +45,7 @@ export async function GET(request: Request) {
   const ics = [
     'BEGIN:VCALENDAR',
     'VERSION:2.0',
-    'PRODID:-//The Kingdom Citizens//Calendar//EN',
+    'PRODID:-//Divine Power Deliverance Ministry//Calendar//EN',
     'BEGIN:VEVENT',
     `UID:${uid}`,
     `DTSTAMP:${now}`,

@@ -16,14 +16,14 @@ export default async function PublicAnnouncementsPage() {
         <div className='mx-auto flex max-w-6xl flex-col gap-5 md:flex-row md:items-center md:justify-between'>
           <div>
             <p className='text-xs uppercase tracking-[0.35em] text-yellow-500'>
-              Kingdom Citizens
+              Divine Family
             </p>
             <h1 className='mt-2 text-3xl font-bold md:text-5xl'>
               Official Announcements
             </h1>
             <p className='mt-3 max-w-2xl text-sm leading-6 text-gray-300 md:text-base'>
               Ministry notices, meeting reminders, prayer gatherings, schedule updates,
-              and official Kingdom Citizens communication.
+              and official Divine Family communication.
             </p>
           </div>
 
@@ -106,7 +106,7 @@ export default async function PublicAnnouncementsPage() {
                 )}
 
                 <div className='mt-6 border-t border-yellow-900/30 pt-4 text-sm text-gray-400'>
-                  By {item.author_name || 'Kingdom Citizens'} ·{' '}
+                  By {item.author_name || 'Divine Family'} ·{' '}
                   {new Date(item.created_at).toLocaleString()}
                 </div>
               </div>

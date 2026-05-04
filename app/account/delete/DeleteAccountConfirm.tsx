@@ -68,7 +68,7 @@ export default function DeleteAccountConfirm() {
       </h2>
 
       <p className='mt-3 text-sm leading-6 text-gray-300'>
-        This will remove your Kingdom Citizens account access. This action should only be used intentionally.
+        This will remove your Divine Family account access. This action should only be used intentionally.
       </p>
 
       <div className='mt-5 rounded-xl border border-red-900/40 bg-black/40 p-4'>

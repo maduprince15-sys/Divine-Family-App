@@ -44,13 +44,13 @@ export default function NoticeBoardSlider({
       <main className='flex min-h-screen items-center justify-center bg-black p-8 text-white'>
         <div className='max-w-3xl rounded-[2rem] border border-yellow-900/40 bg-[#120707] p-10 text-center'>
           <img
-            src='/kingdom-citizens-logo.png'
-            alt='The Kingdom Citizens'
+            src='/dpdm-logo.png'
+            alt='Divine Power Deliverance Ministry'
             className='mx-auto h-32 w-32 rounded-full object-cover'
           />
 
           <p className='mt-8 text-xs uppercase tracking-[0.45em] text-yellow-500'>
-            The Kingdom Citizens
+            Divine Power Deliverance Ministry
           </p>
 
           <h1 className='mt-4 text-5xl font-black md:text-7xl'>
@@ -79,14 +79,14 @@ export default function NoticeBoardSlider({
           <div className='mb-8 flex items-center justify-between gap-4'>
             <div className='flex items-center gap-4'>
               <img
-                src='/kingdom-citizens-logo.png'
-                alt='The Kingdom Citizens'
+                src='/dpdm-logo.png'
+                alt='Divine Power Deliverance Ministry'
                 className='h-20 w-20 rounded-full object-cover md:h-28 md:w-28'
               />
 
               <div>
                 <p className='text-xs uppercase tracking-[0.4em] text-yellow-500'>
-                  The Kingdom Citizens
+                  Divine Power Deliverance Ministry
                 </p>
 
                 <h1 className='mt-2 text-3xl font-black md:text-5xl'>

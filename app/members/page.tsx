@@ -1,4 +1,4 @@
-﻿import Link from 'next/link'
+import Link from 'next/link'
 import { redirect } from 'next/navigation'
 import { createClient } from '../../lib/supabase/server'
 import { canDeleteUsers, canManageRoles } from '../../lib/permissions'
@@ -66,7 +66,7 @@ export default async function MembersPage() {
           <div className='flex flex-col gap-5 md:flex-row md:items-end md:justify-between'>
             <div>
               <p className='text-xs uppercase tracking-[0.35em] text-yellow-500'>
-                The Kingdom Citizens
+                Divine Power Deliverance Ministry
               </p>
 
               <h1 className='mt-3 text-4xl font-black md:text-6xl'>
@@ -74,7 +74,7 @@ export default async function MembersPage() {
               </h1>
 
               <p className='mt-3 max-w-3xl text-sm leading-7 text-gray-300'>
-                View member records, manage roles, and protect the order of the Kingdom Citizens community.
+                View member records, manage roles, and protect the order of the Divine Family community.
               </p>
             </div>
 

@@ -38,7 +38,7 @@ export default async function HomePage() {
 
             <h1 className='mt-6 text-5xl font-black leading-tight tracking-tight md:text-7xl'>
               The Kingdom <br />
-              Citizens
+              Divine Family
             </h1>
 
             <p className='mt-5 max-w-2xl text-base leading-8 text-gray-200 md:text-lg'>
@@ -103,14 +103,14 @@ export default async function HomePage() {
             <div className='rounded-[1.5rem] bg-[#120707] p-5 text-white'>
               <div className='flex items-center gap-4'>
                 <img
-                  src='/kingdom-citizens-logo.png'
-                  alt='The Kingdom Citizens'
+                  src='/dpdm-logo.png'
+                  alt='Divine Power Deliverance Ministry'
                   className='h-16 w-16 rounded-full object-cover'
                 />
 
                 <div>
                   <p className='text-xs uppercase tracking-[0.3em] text-yellow-400'>
-                    The Kingdom Citizens
+                    Divine Power Deliverance Ministry
                   </p>
 
                   <h2 className='mt-1 text-2xl font-bold'>
@@ -177,7 +177,7 @@ export default async function HomePage() {
             Community Life
           </p>
           <h2 className='mt-2 text-3xl font-bold md:text-4xl'>
-            Enter the Kingdom Citizens platform
+            Enter the Divine Family platform
           </h2>
           <p className='mt-3 max-w-3xl text-sm leading-7 text-gray-300'>
             Access teachings, books, meetings, prayer, giving, and member tools.
@@ -194,7 +194,7 @@ export default async function HomePage() {
           <Link href='/public/books' className='rounded-2xl border border-yellow-900/30 bg-gradient-to-br from-[#120707] to-black p-6 shadow-lg shadow-black/30 hover:border-yellow-600'>
             <p className='text-xs uppercase tracking-[0.25em] text-yellow-500'>Bookstore</p>
             <h3 className='mt-3 text-2xl font-bold'>Books</h3>
-            <p className='mt-3 text-sm leading-6 text-gray-300'>Explore Kingdom Citizens books and teaching resources.</p>
+            <p className='mt-3 text-sm leading-6 text-gray-300'>Explore Divine Family books and teaching resources.</p>
           </Link>
 
           <Link href='/public/connect' className='rounded-2xl border border-yellow-900/30 bg-gradient-to-br from-[#120707] to-black p-6 shadow-lg shadow-black/30 hover:border-yellow-600'>
@@ -232,11 +232,11 @@ export default async function HomePage() {
           </p>
 
           <h2 className='mt-3 text-3xl font-bold'>
-            Our address is in Christ.
+            A family of prayer, deliverance, worship, and the Word.
           </h2>
 
           <p className='mt-4 max-w-3xl text-sm leading-7 text-gray-300 md:text-base'>
-            The Kingdom Citizens exists as a Christ-centered community for teaching,
+            Divine Power Deliverance Ministry exists as a Christ-centered community for teaching,
             prayer, formation, and Kingdom expression. We grow together under the Word,
             in fellowship, and in the life of Christ.
           </p>

@@ -39,7 +39,7 @@ export default async function AdminContactMessagesPage() {
         <div className='mb-8 flex flex-wrap items-center justify-between gap-3'>
           <div>
             <p className='text-xs uppercase tracking-[0.35em] text-yellow-500'>
-              The Kingdom Citizens
+              Divine Power Deliverance Ministry
             </p>
 
             <h1 className='mt-2 text-3xl font-bold md:text-5xl'>

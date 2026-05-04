@@ -25,7 +25,7 @@ function buildGoogleCalendarUrl(event: any) {
 
   const params = new URLSearchParams({
     action: 'TEMPLATE',
-    text: event.title || 'Kingdom Citizens Event',
+    text: event.title || 'Divine Family Event',
     dates: `${start}/${end}`,
     details,
     location: event.location || event.meeting_url || '',
@@ -38,7 +38,7 @@ function buildOutlookCalendarUrl(event: any) {
   const params = new URLSearchParams({
     path: '/calendar/action/compose',
     rru: 'addevent',
-    subject: event.title || 'Kingdom Citizens Event',
+    subject: event.title || 'Divine Family Event',
     startdt: event.event_date,
     enddt: addOneDay(event.event_date),
     allday: 'true',
@@ -67,7 +67,7 @@ function buildYahooCalendarUrl(event: any) {
 
   const params = new URLSearchParams({
     v: '60',
-    title: event.title || 'Kingdom Citizens Event',
+    title: event.title || 'Divine Family Event',
     st: start,
     et: end,
     desc: details,
@@ -100,7 +100,7 @@ export default async function CalendarPage() {
       <section className='border-b border-yellow-900/40 bg-gradient-to-br from-black via-[#130606] to-[#260909] px-4 py-8 md:px-8'>
         <div className='mx-auto max-w-5xl'>
           <p className='text-xs uppercase tracking-[0.35em] text-yellow-500'>
-            The Kingdom Citizens
+            Divine Power Deliverance Ministry
           </p>
 
           <div className='mt-3 flex flex-col gap-4 md:flex-row md:items-end md:justify-between'>
@@ -110,7 +110,7 @@ export default async function CalendarPage() {
               </h1>
 
               <p className='mt-3 max-w-2xl text-sm leading-6 text-gray-300'>
-                Important dates, meetings, programs, and Kingdom Citizens appointments.
+                Important dates, meetings, programs, and Divine Family appointments.
               </p>
             </div>
 

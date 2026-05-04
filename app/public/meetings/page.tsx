@@ -14,7 +14,7 @@ export default async function PublicMeetingsPage() {
         <div className='mx-auto flex max-w-6xl flex-col gap-5 md:flex-row md:items-center md:justify-between'>
           <div>
             <p className='text-xs uppercase tracking-[0.35em] text-yellow-500'>
-              The Kingdom Citizens
+              Divine Power Deliverance Ministry
             </p>
 
             <h1 className='mt-2 text-3xl font-bold md:text-5xl'>
@@ -22,7 +22,7 @@ export default async function PublicMeetingsPage() {
             </h1>
 
             <p className='mt-3 max-w-2xl text-sm leading-6 text-gray-300 md:text-base'>
-              Join The Kingdom Citizens for prayer, Bible study, teaching sessions,
+              Join Divine Power Deliverance Ministry for prayer, Bible study, teaching sessions,
               fellowship, and spiritual formation gatherings.
             </p>
           </div>
@@ -54,7 +54,7 @@ export default async function PublicMeetingsPage() {
           )}
 
           {meetings?.map((item: any, index: number) => {
-            const title = item.title ?? 'Kingdom Citizens Meeting'
+            const title = item.title ?? 'Divine Family Meeting'
             const platform = item.platform ?? item.meeting_platform
             const date = item.date_text ?? item.date
             const time = item.time_text ?? item.time
@@ -158,7 +158,7 @@ export default async function PublicMeetingsPage() {
           </h2>
 
           <p className='mt-3 text-sm leading-6 text-gray-300'>
-            Meetings are part of the formation rhythm of The Kingdom Citizens.
+            Meetings are part of the formation rhythm of Divine Power Deliverance Ministry.
             Come prepared with Scripture, prayer, expectation, and willingness to grow in Christ.
           </p>
 

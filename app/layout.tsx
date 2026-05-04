@@ -14,17 +14,17 @@ const geistMono = Geist_Mono({
 })
 
 export const metadata: Metadata = {
-  title: 'The Kingdom Citizens',
+  title: 'Divine Power Deliverance Ministry',
   description:
-    'The Kingdom Citizens platform for teachings, meetings, prayer, books, posts, calendar, giving, and member community.',
+    'Divine Power Deliverance Ministry platform for teachings, meetings, prayer, books, posts, calendar, giving, and member community.',
   manifest: '/manifest.json',
   icons: {
-    icon: '/kingdom-citizens-logo.png',
-    apple: '/kingdom-citizens-logo.png',
+    icon: '/dpdm-logo.png',
+    apple: '/dpdm-logo.png',
   },
   appleWebApp: {
     capable: true,
-    title: 'Kingdom Citizens',
+    title: 'Divine Family',
     statusBarStyle: 'black-translucent',
   },
 }

@@ -11,7 +11,7 @@ export default function PublicContactPage() {
       <section className='border-b border-yellow-900/40 bg-gradient-to-br from-[#210808] via-[#0b0505] to-black px-4 py-10 md:px-8 md:py-16'>
         <div className='mx-auto max-w-5xl'>
           <p className='text-xs uppercase tracking-[0.35em] text-yellow-500'>
-            The Kingdom Citizens
+            Divine Power Deliverance Ministry
           </p>
 
           <h1 className='mt-3 text-4xl font-black md:text-6xl'>
@@ -19,7 +19,7 @@ export default function PublicContactPage() {
           </h1>
 
           <p className='mt-4 max-w-3xl text-sm leading-7 text-gray-300 md:text-base'>
-            Send a message to The Kingdom Citizens. You can ask a question, request information,
+            Send a message to Divine Power Deliverance Ministry. You can ask a question, request information,
             or contact the board through this public message box.
           </p>
 

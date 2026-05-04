@@ -1,4 +1,4 @@
-﻿'use client'
+'use client'
 
 import Link from 'next/link'
 import { useRouter } from 'next/navigation'
@@ -69,13 +69,13 @@ export default function LoginPage() {
         <div className='w-full max-w-md overflow-hidden rounded-3xl border border-yellow-900/40 bg-[#120707] shadow-2xl shadow-black/50'>
           <div className='bg-gradient-to-br from-black via-[#180707] to-[#260909] p-6 text-center'>
             <img
-              src='/kingdom-citizens-logo.png'
-              alt='The Kingdom Citizens'
+              src='/dpdm-logo.png'
+              alt='Divine Power Deliverance Ministry'
               className='mx-auto h-24 w-24 rounded-full object-cover'
             />
 
             <p className='mt-4 text-xs uppercase tracking-[0.35em] text-yellow-500'>
-              The Kingdom Citizens
+              Divine Power Deliverance Ministry
             </p>
 
             <h1 className='mt-2 text-3xl font-black'>
@@ -83,7 +83,7 @@ export default function LoginPage() {
             </h1>
 
             <p className='mt-3 text-sm leading-6 text-gray-300'>
-              Enter the Kingdom Citizens dashboard, messages, calendar, prayer wall, and member tools.
+              Enter the Divine Family dashboard, messages, calendar, prayer wall, and member tools.
             </p>
           </div>
 

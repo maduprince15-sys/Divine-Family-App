@@ -64,7 +64,7 @@ const canReply = true
       <section className='border-b border-yellow-900/40 bg-gradient-to-br from-black via-[#130606] to-[#260909] px-4 py-8 md:px-8'>
         <div className='mx-auto max-w-4xl'>
           <p className='text-xs uppercase tracking-[0.35em] text-yellow-500'>
-            The Kingdom Citizens
+            Divine Power Deliverance Ministry
           </p>
 
           <h1 className='mt-3 text-3xl font-bold md:text-5xl'>
@@ -84,7 +84,7 @@ const canReply = true
               From
             </p>
             <p className='mt-2 text-gray-200'>
-              {message.sender_name || 'The Kingdom Citizens'}
+              {message.sender_name || 'Divine Power Deliverance Ministry'}
             </p>
           </div>
 

@@ -47,7 +47,7 @@ export default function DashboardNoticePreview({
         className='group mb-8 block overflow-hidden rounded-[2rem] border border-yellow-700/50 bg-gradient-to-br from-[#2a0909] via-[#120707] to-black p-6 shadow-2xl shadow-black/40 transition hover:-translate-y-1 hover:border-yellow-400 md:p-8'
       >
         <p className='text-xs uppercase tracking-[0.35em] text-yellow-400'>
-          Kingdom Citizens Notice Board
+          Divine Family Notice Board
         </p>
 
         <h2 className='mt-3 text-3xl font-black text-white md:text-5xl'>
