@@ -571,6 +571,15 @@ export default async function DashboardPage() {
                 {managementDescription}
               </p>
             </div>
+<Link
+  href="/members"
+  className="rounded-2xl border border-yellow-900/40 bg-[#120707] p-5 text-white hover:bg-[#1a0909]"
+>
+  <h2 className="text-xl font-bold text-yellow-400">Members</h2>
+  <p className="mt-2 text-sm text-gray-300">
+    View the Divine Family member directory.
+  </p>
+</Link>
 
             <div className='grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3'>
               {managementCards.map((card) => (
